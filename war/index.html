@@ -1,0 +1,67 @@
+<html>
+	<head>
+	<meta name="google-site-verification" content="WOBgeOAZiXOm4ze0DOPzCYojs3JeEdGdcLTQeWyk150" />
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<title>Welcome to the Petition Signer Application</title>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#main').hover(function(){ $(this).animate({height:200},'fast');
+					$('p').css('display','block');					
+					
+			}, function(){ $(this).animate({height:100},'fast');
+					$('p').css('display','none');					
+			});
+	
+		});
+		</script>
+		<style type="text/css">
+			a {
+				text-decoration:none;
+				font-family:'trebuchet ms',georgia,serif;
+				color:black;
+				font-size:1.2em;	
+				padding: 2px 2px 2px 2px;
+			}
+
+			a:hover {
+				-moz-border-radius: 10px 10px 10px 10px; 
+				-webkit-border-radius: 10px 10px 10px 10px; 
+				background:black;
+				color:white;		
+			}
+
+			h1 {
+				font-family:'trebuchet ms',georgia,serif;
+				font-size:2.2em;
+font-weight:bold
+			}
+
+			#main {
+				width:500px;
+				height:100px;
+				text-align:center;
+				margin-top:15%;
+				background-color:#A4C639;
+				margin-left:30%;
+				-moz-border-radius: 10px 10px 10px 10px; 
+				padding:10px 10px 10px 10px;
+				color:#FFFFFF;
+				-moz-box-shadow:0 0 5px 5px gray;
+				
+			}
+
+			p  {
+				display:none;
+				color:black;
+			}
+		</style>
+	</head>
+	<body>
+		<h4 style="text-align:center">Awesomeness in progress.</h4>
+	<div id="main">
+		<h1> Petition Signer Application</h1>
+		<p> This is the web interface of the Petition Signer application which was made as a part of the Software Engineering project at NITK Surathkal.</p>
+	</div>
+		<h5 style="text-align:center;">| <a href="/home.jsp">Login</a> | <a href="">Mobile</a> | <a href="#">About</a> | <a href="http://code.google.com/appengine/">GAE</a> |</h5>
+	</body>
+</html>
